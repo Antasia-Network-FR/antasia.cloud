@@ -1,0 +1,1 @@
+import{I as d,K as e,J as l,ai as n,h as p}from"./runtime.BqgfhrT4.js";function v(t,u,r){d(()=>{var a=e(()=>u(t,r?.())||{});if(r&&a!=null&&a.update){var o=!1,i={};l(()=>{var s=r();n(s),o&&p(i,s)&&(i=s,a.update(s))}),o=!0}if(a!=null&&a.destroy)return()=>a.destroy()})}export{v as a};

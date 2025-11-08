@@ -1,0 +1,1 @@
+import{I as a,J as e,K as f,L as r,S as c}from"./runtime.BqgfhrT4.js";function s(n,u){return n===u||n?.[c]===u}function m(n={},u,o,p){return a(()=>{var l,t;return e(()=>{l=t,t=[],f(()=>{n!==o(...t)&&(u(n,...t),l&&s(o(...l),n)&&u(null,...l))})}),()=>{r(()=>{t&&s(o(...t),n)&&u(null,...t)})}}),n}export{m as b};

@@ -1,0 +1,1 @@
+async function o(t){if(t){let n=t.split("; "),a=[];for(let e=0;e<n.length;e++){let r=n[e].split("=");a.push({name:r[0],value:r[1]})}return a}else return[]}async function s(t){if(!t)return"";let n=await o(t),a="";return await n.forEach(e=>{e.name=="token"&&(a=e.value)}),a}export{o as c,s as g};
